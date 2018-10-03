@@ -21,7 +21,7 @@
         "php": ">=5.4.0",
         "ext-openssl": "*",
         "illuminate/support": ">=5.0.0",
-        "onelogin/php-saml": "dev-develop"
+        "onelogin/php-saml": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*"
