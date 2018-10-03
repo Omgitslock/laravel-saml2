@@ -21,7 +21,7 @@ class Saml2Auth
     protected $samlAssertion;
 
     function __construct(OneLogin_Saml2_Auth $auth)
-    {
+    {'test';
         $this->auth = $auth;
     }
 
