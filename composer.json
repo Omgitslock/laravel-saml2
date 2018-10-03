@@ -5,6 +5,12 @@
     "homepage": "https://github.com/aacotroneo/laravel-saml2",
     "license": "MIT",
     "version": "0.11.1",
+    "repositories" : [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Omgitslock/php-saml.git"
+        }
+    ],
     "authors": [
         {
             "name": "aacotroneo",
@@ -15,7 +21,7 @@
         "php": ">=5.4.0",
         "ext-openssl": "*",
         "illuminate/support": ">=5.0.0",
-        "onelogin/php-saml": "^2.10"
+        "onelogin/php-saml": "dev-develop"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*"
